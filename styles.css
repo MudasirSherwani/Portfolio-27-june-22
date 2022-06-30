@@ -15,12 +15,12 @@
   width: 300px;
   border-style: groove;
   border-width: 1px;
-  border-color: #36B37E;
+  border-color: #36b37e;
   text-align: center;
 }
 
 .flex-container > div {
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
@@ -37,8 +37,8 @@ ul {
 
 ul li {
   display: inline;
-  position:relative;
-  top:-28px;
+  position: relative;
+  top: -28px;
 }
 
 a {
@@ -54,19 +54,19 @@ a {
 }
 
 .banner-text > h1 {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .banner-text > h2 {
-  color: #36B37E;
+  color: #36b37e;
   font-size: 33px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .banner-text-pera > p {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 12px;
   margin-left: 200px;
   margin-right: 200px;
@@ -77,10 +77,20 @@ a {
   padding: 10px;
 }
 
+.about-me {
+  background-color: #36b37e;
+  border: 0.1px;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .header-area > ul > li > a {
     font-size: 12px;
-    margin-left: 0px;
+    margin-left: 1px;
   }
 
   .banner-text > h1 {
@@ -91,7 +101,7 @@ a {
     font-size: 22px;
   }
 
-  .banner-text-pera  {
+  .banner-text-pera {
     font-size: 16px;
   }
 
