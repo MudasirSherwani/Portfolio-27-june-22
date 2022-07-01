@@ -2,8 +2,7 @@
 
 > This is Portfolio project in Mobile View only .This project developement assing by Microverse
 
-![Portfolio in Mobile View]
-(Protfolio_mobile_view_ss.PNG)
+![Portfolio in Mobile View](Protfolio_mobile_view_ss.PNG)
 
 ## Built With
 
