@@ -1,12 +1,12 @@
 .flex-container {
   display: flex;
-  background-color: rgb(234, 238, 241);
+  background-color: rgb(255, 255, 255);
   flex-direction: column;
 }
 
 .flex-container-card {
   display: flex;
-  background-color: rgb(174, 181, 187);
+  background-color: rgb(198, 199, 201);
   justify-content: space-evenly;
   height: 400px;
 }
@@ -21,13 +21,18 @@
 
 .flex-container > div {
   background-color: #fff;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 5px;
   font-size: 30px;
 }
 
 .header-area {
   height: 35px;
+}
+
+.fa-bars {
+  float: right;
+  margin-right: 20px;
 }
 
 ul {
@@ -93,6 +98,10 @@ a {
     margin-left: 1px;
   }
 
+  .header-area {
+    margin-top: -5px;
+  }
+
   .banner-text > h1 {
     font-size: 22px;
   }
@@ -106,6 +115,10 @@ a {
   }
 
   .flex-container-card > div {
+    font-size: 16px;
+  }
+
+  .text-about {
     font-size: 16px;
   }
 }
