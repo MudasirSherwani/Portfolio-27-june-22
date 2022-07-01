@@ -1,124 +1,73 @@
 .flex-container {
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.flex-container-card {
-  display: flex;
-  background-color: rgb(198, 199, 201);
-  justify-content: space-evenly;
-  height: 400px;
-}
-
-.flex-container-card > div {
-  width: 300px;
-  border-style: groove;
-  border-width: 1px;
-  border-color: #36b37e;
-  text-align: center;
-}
-
-.flex-container > div {
-  background-color: #fff;
-  margin: 5px;
-  padding: 5px;
+nav {
+  height: 80px;
+  width: 100%;
   font-size: 30px;
 }
 
-.header-area {
-  height: 35px;
-}
-
-.fa-bars {
+nav label {
   float: right;
-  margin-right: 20px;
-}
-
-ul {
-  list-style-type: none;
-  text-align: center;
-}
-
-ul li {
-  display: inline;
+  line-height: 80px;
   position: relative;
-  top: -28px;
+  top: 50px;
+  right: 70px;
 }
 
-a {
-  padding: 10px;
-  margin: 10px;
-  text-decoration: none;
-  font-size: 18px;
+.logo {
+  position: relative;
+  float: left;
+  top: 70px;
+  left: 20px;
+  font-weight: bold;
 }
 
-.banner-text {
-  text-align: center;
-  height: auto;
-}
-
-.banner-text > h1 {
+section h1 {
   color: #172b4d;
+  text-align: center;
+  margin: 30px;
+  margin-top: 140px;
   font-size: 40px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
 
-.banner-text > h2 {
+section h2 {
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
+  font-weight: bold;
   color: #36b37e;
-  font-size: 33px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.banner-text-pera > p {
+section p {
   color: #172b4d;
-  font-size: 12px;
-  margin-left: 200px;
-  margin-right: 200px;
-  position: relative;
+  text-align: center;
+  text-indent: 28px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'inter';
+  font-style: normal;
+  line-height: 28px;
+  margin: 30px;
+  background-color: transparent;
 }
 
-.social-icons i {
+.icon i {
   padding: 10px;
+  text-align: center;
+  font-size: 34px;
 }
 
-.about-me {
-  background-color: #36b37e;
-  border: 0.1px;
-  height: 50px;
-  width: 150px;
-  border-radius: 8px;
-  font-size: 18px;
-  color: white;
-}
-
-@media only screen and (max-width: 600px) {
-  .header-area > ul > li > a {
-    font-size: 12px;
-    margin-left: 1px;
-  }
-
-  .header-area {
-    margin-top: -5px;
-  }
-
-  .banner-text > h1 {
-    font-size: 22px;
-  }
-
-  .banner-text > h2 {
-    font-size: 22px;
-  }
-
-  .banner-text-pera {
-    font-size: 16px;
-  }
-
-  .flex-container-card > div {
-    font-size: 16px;
-  }
-
-  .text-about {
-    font-size: 16px;
-  }
+.icon {
+  text-align: center;
 }
