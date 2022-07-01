@@ -11,33 +11,32 @@
 
 ## Extensions / Plugins
 
-- Linters
-  -Lighthouse
-  -Webhint
-  -Stylelint
-  -ESLint
-  -node_modules checker
+Linters Installed
+-Lighthouse
+-Webhint
+-Stylelint
+-ESLint
+-node_modules checker
 
 
 
 ## Getting Started
-
--Open GitHub URL of repositry.
--Download Code repo in zib.
--Extract and open repo folder into visual studio code or any other Text Editor Software.
-GitHub Repositry URL: https://github.com/MudasirSherwani/Portfolio
-To get a local copy up and running follow these simple example steps.
+- Open GitHub URL of repositry.
+- Download Code repo in zib.
+- Extract and open repo folder into visual studio code or any other Text Editor Software.
+- GitHub Repositry URL: https://github.com/MudasirSherwani/Portfolio
+  To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Visual Studio
-Knowldege About HTML / CSS
+- Visual Studio
+- Knowldege About HTML / CSS
 Linters
-  -Lighthouse
-  -Webhint
-  -Stylelint
-  -ESLint
-  -node_modules checker
-Github
+- Lighthouse
+- Webhint
+- Stylelint
+- ESLint
+- node_modules checker
+- Github
 
 
 ### Setup
@@ -54,7 +53,7 @@ Github
 
 ## Authors
 
-👤 **Author1**
+👤 **Mudasir Sherwani**
 
 - GitHub: [@Mudasir Sherwani](https://github.com/MudasirSherwani)
 - Twitter: [@Mudasir Sherwani](https://twitter.com/mudasirsherwani)
