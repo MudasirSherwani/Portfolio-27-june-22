@@ -1,6 +1,8 @@
 # Protfolio
 
-> This is Portfolio project in Mobile View only .This project developement assing by Microverse
+> This is Portfolio project in Mobile View only .This project developement assing by Microverse.
+> In the Mobile View Portfolio there are few important sections are visible.
+> This project has done after getting templete from FIGMA templete #3.
 
 ![Portfolio in Mobile View](Protfolio_mobile_view_ss.PNG)
 
