@@ -1,7 +1,65 @@
-h1 {
-  color: red;
+.flex-container {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-p {
-  color: blue;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 30px;
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section h1 {
+  color: #172b4d;
+  text-align: center;
+  margin-top: 74px;
+  margin: 24px;
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 52px;
+}
+
+section h2 {
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
+  font-weight: 700px;
+  color: #36b37e;
+  line-height: 52px;
+}
+
+section p {
+  color: #172b4d;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 28px;
+  margin: 24px;
+  background-color: transparent;
+}
+
+.icon {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  align-content: center;
+}
+
+ul a i {
+  padding: 10px;
+  align-items: center;
+  font-size: 34px;
+  color: #172b4d;
 }
