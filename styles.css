@@ -1,73 +1,65 @@
 .flex-container {
   padding: 0;
   margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
-  height: 80px;
-  width: 100%;
-  font-size: 30px;
-}
-
-nav label {
-  float: right;
-  line-height: 80px;
-  position: relative;
-  top: 50px;
-  right: 70px;
-}
-
-.logo {
-  position: relative;
-  float: left;
-  top: 70px;
-  left: 20px;
-  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 30px;
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 section h1 {
   color: #172b4d;
   text-align: center;
-  margin: 30px;
-  margin-top: 140px;
+  margin-top: 74px;
+  margin: 24px;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700px;
+  line-height: 52px;
 }
 
 section h2 {
   text-align: center;
   margin: 30px;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700px;
   color: #36b37e;
+  line-height: 52px;
 }
 
 section p {
   color: #172b4d;
   text-align: center;
-  text-indent: 28px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: 'inter';
+  font-size: 20px;
+  font-weight: 400px;
   font-style: normal;
   line-height: 28px;
-  margin: 30px;
+  margin: 24px;
   background-color: transparent;
-}
-
-.icon i {
-  padding: 10px;
-  text-align: center;
-  font-size: 34px;
 }
 
 .icon {
   text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  align-content: center;
+}
+
+ul a i {
+  padding: 10px;
+  align-items: center;
+  font-size: 34px;
+  color: #172b4d;
 }
